@@ -1,8 +1,8 @@
-# Installing R 
+# Installing R
 
 ## Introduction
 
-In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science IDE that many useRs like to use! 
+In this lesson we'll get R installed on your computer and begin to get you familiar with [RStudio](https://rstudio.com/), a data science IDE that many useRs like to use!
 
 ## Objectives
 
@@ -10,11 +10,11 @@ You will be able to:
 
 * Get R installed on your computer
 * Have RStudio installed on your computer
-* Change the color scheme of RStudio 
-* Disable RStudio's default saving of .RData 
+* Change the color scheme of RStudio
+* Disable RStudio's default saving of .RData
 * Run your first RMarkdown script
 
-## Getting R 
+## Getting R
 
 > Over the course of the next few lessons we **won't** be running R in your browser, but rather putting it on your local machine.
 
@@ -22,7 +22,7 @@ This is unlike your previous learn.co work where you could run some of your code
 
 You might already have some software that could run R, but in order to make sure everything works for this series of lessons, please be sure to follow these steps exactly so everything works well!
 
-This is especially true if you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh install of both R and RStudio. Luckily R tends to be much easier to install and manage than Python. 
+This is especially true if you try to use the RStudio that comes along with [Anaconda](https://www.anaconda.com/); it's best to just do a fresh install of both R and RStudio. Luckily R tends to be much easier to install and manage than Python.
 
 So where do you get all things R?
 
@@ -32,19 +32,19 @@ If you navigate to `https://cran.r-project.org/` you will see this page here:
 ![r install image 1](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-1.png)
 
 Follow the links in the top box of `Download and Install R` to get R on your computer.
-The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system. 
+The following series of screenshots will show what this process looks like if you're doing this as of May 2020 on an OSX system.
 
 After you click `Download R for (Mac) OS X`, you should then see this image below:
 
 ![r install image 2](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-2.png)
 
-If you then click on the where it says `R-4.x.x.pkg`, R will download on your computer. 
+If you then click on the where it says `R-4.x.x.pkg`, R will download on your computer.
 
 ![r install image 3](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-3.png)
 
-You'll notice that R downloads pretty fast if you're on a decent internet connection. R `4.0.0` only requires about 170MB. 
+You'll notice that R downloads pretty fast if you're on a decent internet connection. R `4.0.0` only requires about 170MB.
 
-If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard 
+If you then open up the package that is downloaded (Chrome shown here), you can just follow the install instructions in the install wizard
 
 ![r install image 4](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-4.png)
 
@@ -62,25 +62,25 @@ Try to type in something simple like:
 
 into the console.
 
-It will look something like this: 
+It will look something like this:
 
 ![r install image 7](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-7.png)
 
-It works like a calculator just like Python! 
+It works like a calculator just like Python!
 
-To exit, type: 
+To exit, type:
 
 ```{r}
 quit()
 ```
 
-Then tell it `n` for no saying you don't want to save your work space! 
+Then tell it `n` for no saying you don't want to save your work space!
 
 Now unless you're some sort of masochist, you're never going to actually run R from your terminal for your data science projects. We need to get an IDE to help us out!
 
 ## RStudio
 
-Just like Python, there are many ways to interact with R as a programming language. One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio](https://www.rstudio.com). It can be a bit confusing when getting into the world of R because [RStudio](https://rstudio.com/products/rstudio/download/) the IDE is created by [RStudio PBC](https://rstudio.com/) the company. As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that "corporate decisions must both align with this mission, as well as balance the interests of community, customers, employees, and shareholders". That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal. You can read more about it [here](https://blog.rstudio.com/2020/01/29/rstudio-pbc/). 
+Just like Python, there are many ways to interact with R as a programming language. One of the most popular choices at the moment, for reasons that will be made clear very soon, is [RStudio](https://www.rstudio.com). It can be a bit confusing when getting into the world of R because [RStudio](https://rstudio.com/products/rstudio/download/) the IDE is created by [RStudio PBC](https://rstudio.com/) the company. As a fun fact, RStudio the company just announced that it is now a Public Benefit Corporation meaning that "corporate decisions must both align with this mission, as well as balance the interests of community, customers, employees, and shareholders". That's not super relevant to our install, but if you do talk to anyone in the R world, this was a very big deal. You can read more about it [here](https://blog.rstudio.com/2020/01/29/rstudio-pbc/).
 
 So how do we get RStudio the IDE?
 
@@ -90,7 +90,7 @@ Let's navigate over to `RStudio.com` and again follow this set of install instru
 
 Now if you're following these install instructions near May of 2020, you'll notice that RStudio's homepage is actually showing off a recent push that the company has been doing to have RStudio be able to run Python! You can read more about that [here at this link](https://blog.rstudio.com/2020/04/02/rstudio-connect-1-8-2/).
 
-But let's not get distracted! 
+But let's not get distracted!
 
 If you go from the home page and hover over products you can get a link to find where to get RStudio
 
@@ -106,7 +106,7 @@ Clicking this will take you down the page to this next image where you actually 
 
 We of course want the free, open source one!
 
-It's important to notice that RStudio (the company) offers a lot of internal support for bigger data science teams. 
+It's important to notice that RStudio (the company) offers a lot of internal support for bigger data science teams.
 
 ![r install image 12](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-12.png)
 
@@ -118,9 +118,9 @@ We can install RStudio with just dragging and dropping on OSX.
 
 ![r install image 14](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/r-install-14.png)
 
-Once this has been installed with the drag and drop, we just double click to open up RStudio! 
+Once this has been installed with the drag and drop, we just double click to open up RStudio!
 
-## RStudio IDE 
+## RStudio IDE
 
 RStudio is the GUI for all things R. When you first open RStudio, typically you will see four separate panels.
 
@@ -134,7 +134,7 @@ I'd like you to go in the top toolbar then select `File > Preferences ...`.
 
 ![r studio setup image 2](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/rstudio-2.png)
 
-We can change here to `Solarized Dark`. 
+We can change here to `Solarized Dark`.
 
 Now while we're here in Preferences, let's also do something that's going to save you a lot of pain in the long run which is make the default behavior to never save your work space.
 
@@ -177,7 +177,7 @@ Note here that because you've done a fresh install of R, you might be prompted t
 
 **Make sure you agree to all of this!!**.
 
-The first time you run this, you will also see something like this which asks you if you want to install the library (or suite of libraries we're going to use) this time. Make sure to also install this and say `Yes` when it asks you at the command prompt to install everything! 
+The first time you run this, you will also see something like this which asks you if you want to install the library (or suite of libraries we're going to use) this time. Make sure to also install this and say `Yes` when it asks you at the command prompt to install everything!
 
 ![r install warning](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/installwarning.png)
 
@@ -187,13 +187,13 @@ Typically we would do this at the command line with something like:
 install.packages("tidyverse")
 ```
 
-But RStudio is smart and realizes that we don't have it and we wanted to show you that! 
+But RStudio is smart and realizes that we don't have it and we wanted to show you that!
 
-Once all that software is installed, you should be able to run your script. 
+Once all that software is installed, you should be able to run your script.
 
 This will run the RMarkdown script and create a little report for you. Notice it's an HTML file of your analysis meaning you can now just put the `file.html` that was just created on any website!  RMarkdown allows data scientists to make quick reports in HTML, LaTeX, or even Word formats.
 
-We just wanted to show off this cool tool before working in R. 
+We just wanted to show off this cool tool before working in R.
 
 ![r faking seaborn](https://raw.githubusercontent.com/learn-co-curriculum/dsc-installing-r/master/faking-seaborn.png)
 
